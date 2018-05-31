@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Livero</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hintpassword">Password</string>
+    <string name="confirmpass">Confirm password</string>
+    <string name="facebook_app_id">1993873674196809</string>
+    <string name="fb_login_protocol_scheme">fb1993873674196809</string>
+    <string name="splashscreen">LiveroLogo</string>
+    <string name="emailconfmessage">A confirmation mail has been sent to your email account. Please  confirm</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e4e5ea</color>
+    <color name="colorPrimaryDark">#1832d9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#fc0404</color>
+    <color name="colorGreen">#4ed724</color>
+    <color name="material_teal_500">#1687C3</color>
+    <color name="material_teal_700">#116E9F</color>
+
+
+
+    <color name="material_teal_a700">#1687C3</color>
+
+        <!-- Selectors -->
+    <color name="selector_normal">@android:color/transparent</color>
+    <color name="selector_white_focused">#22FFFFFF</color>
+    <color name="selector_white_pressed">#33FFFFFF</color>
+    <color name="selector_black_focused">#12000000</color>
+    <color name="selector_black_pressed">#1F000000</color>
+    <color name="selector_teal_focused">#2200BFA5</color>
+    <color name="selector_teal_pressed">#4400BFA5</color>
+
+
+</resources>
