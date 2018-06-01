@@ -8,7 +8,7 @@
         <item>
             <bitmap
                 android:gravity="center"
-                android:src="@drawable/livero_logo1"/>
+                android:src="@drawable/splashscreengif"/>
         </item>
 
     </layer-list>

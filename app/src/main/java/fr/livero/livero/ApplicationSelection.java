@@ -11,13 +11,14 @@ import android.widget.Button;
  */
 
 public class ApplicationSelection extends AppCompatActivity{
-    Button btncustlogin;
+    Button btncustlogin,btndellogin;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.appselection);
 
         btncustlogin=(Button)findViewById(R.id.customer_login);
+        btndellogin=(Button)findViewById(R.id.deliverer_login);
 
         btncustlogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,5 +29,13 @@ public class ApplicationSelection extends AppCompatActivity{
             }
         });
 
+        btndellogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent int1= new Intent(ApplicationSelection.this,Test.class);
+                startActivity(int1);
+            }
+        });
     }
 }
