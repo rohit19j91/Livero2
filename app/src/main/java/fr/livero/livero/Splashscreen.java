@@ -10,11 +10,6 @@ import android.widget.ProgressBar;
 
 import com.felipecsl.gifimageview.library.GifImageView;
 
-import org.apache.commons.io.IOUtils;
-
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
 
 /**
  * Created by Rohit on 4/28/2018.
@@ -30,34 +25,16 @@ import java.io.InputStream;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
-       /* gifImageView = findViewById(R.id.splashscreengif);
 
-        try {
-            InputStream inputStream = getAssets().open("splashscreengif.gif");
-            byte[] bytes = IOUtils.toByteArray(inputStream);
-            gifImageView.setBytes(bytes);
-            gifImageView.startAnimation();
-        }
-        catch(IOException ex){
-            ex.printStackTrace();
-        }
-new Handler().postDelayed(new Runnable() {
-    @Override
-    public void run() {
-        Splashscreen.this.startActivity(new Intent(Splashscreen.this,ApplicationSelection.class));
-        Splashscreen.this.finish();
-    }
-},6000);*/
-/////////////////////////
         Thread timer = new Thread(){
             public void run(){
                 try{
-                    sleep(5000);   // set the duration of splash screen
+                    sleep(9000);   // set the duration of splash screen
                 }
                 catch(InterruptedException e){
                     e.printStackTrace();
                 } finally {
-                    Intent intent = new Intent(Splashscreen.this, MainActivity.class);
+                    Intent intent = new Intent(Splashscreen.this, Test.class);
                     startActivity(intent);
                 }
             }
